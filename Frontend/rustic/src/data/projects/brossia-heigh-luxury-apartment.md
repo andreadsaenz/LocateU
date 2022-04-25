@@ -13,4 +13,4 @@ additionDesc: Edden’s Villa Is An International Project Located In Costa Rica.
 isFeatured: true
 ---
 
-![Create routes via your file + folder structure](1.jpg)
+![Create routes via your file + folder structure](1.png)

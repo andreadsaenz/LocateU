@@ -55,43 +55,18 @@ function HeaderTwo() {
                                     </li>
                                     <li
                                         className={
-                                            router.pathname == '/about'
+                                            router.pathname == '/login'
                                                 ? 'active'
                                                 : ''
                                         }
                                     >
-                                        <Link href='/about'>
+                                        <Link href='/login'>
                                             <a>
-                                                <span>About</span>
+                                                <span>Login</span>
                                             </a>
                                         </Link>
                                     </li>
-                                    <li
-                                        className={
-                                            router.pathname == '/projects'
-                                                ? 'active'
-                                                : ''
-                                        }
-                                    >
-                                        <Link href='/projects'>
-                                            <a>
-                                                <span>Projects</span>
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li
-                                        className={
-                                            router.pathname == '/posts'
-                                                ? 'active'
-                                                : ''
-                                        }
-                                    >
-                                        <Link href='/posts'>
-                                            <a>
-                                                <span>Posts</span>
-                                            </a>
-                                        </Link>
-                                    </li>
+
                                     <li
                                         className={
                                             router.pathname == '/contact'
@@ -111,12 +86,7 @@ function HeaderTwo() {
                         <div className='lg:col-span-3 col-span-6'>
                             <div className={`outer-box ${headerCss}`}>
                                 <ul className='language-list'>
-                                    <li>
-                                        <Link href='/'>END</Link>
-                                    </li>
-                                    <li>
-                                        <Link href='/'>FRA</Link>
-                                    </li>
+
                                 </ul>
                                 <div className='offcanvas-area'>
                                     <div className='offcanvas'>

@@ -18,7 +18,7 @@ function Footer() {
                                 />
                             </div>
                         </div>
-                        <div className='fixed-lg:col-span-3 fixed-md:col-span-4 fixed-lm:col-span-6 max-sm:pt-[35px]'>
+                        {/* <div className='fixed-lg:col-span-3 fixed-md:col-span-4 fixed-lm:col-span-6 max-sm:pt-[35px]'>
                             <div className='footer-widget-item'>
                                 <h2 className='title'>Contact</h2>
                                 <ul className='contact-info mt-[25px]'>
@@ -109,7 +109,7 @@ function Footer() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -119,21 +119,21 @@ function Footer() {
                         <div className='md:grid md:grid-cols-12 flex flex-col'>
                             <div className='md:col-span-4 max-lm:order-last max-lm:pt-[10px]'>
                                 <div className='copyright flex-wrap md:justify-start justify-center md:mb-0 mb-[10px]'>
-                                    © 2022 <span className='mx-1'>RUSTIC</span>
-                                    Made with © by
+                                    © 2022 <span className='mx-1'>LocateU</span>
+                                    Hecho con © por
                                     <div className='text-[#f53400] mx-1'>
                                         <AiIcons.AiFillHeart />
                                     </div>
-                                    <Link href='https://themeforest.net/user/codecarnival/portfolio'>
+                                    <Link href=''>
                                         <a target='_blank'>
-                                            <span> CodeCarnival</span>
+                                            <span> 201503484</span>
                                         </a>
                                     </Link>
                                 </div>
                             </div>
                             <div className='md:col-span-6'>
                                 <ul className='footer-social-link md:mb-0 mb-[10px]'>
-                                    <li>
+                                    {/* <li>
                                         <Link href='https://twitter.com/'>
                                             <a>Twitter</a>
                                         </Link>
@@ -157,7 +157,7 @@ function Footer() {
                                         <Link href='https://pinterest.com/'>
                                             <a>Pinterest</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                             <div className='md:col-span-2'>

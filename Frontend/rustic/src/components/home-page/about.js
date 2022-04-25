@@ -11,36 +11,29 @@ function About() {
             <div className='container max-lg:max-w-full fixed-lg:pr-0'>
                 <div className='lg:grid lg:grid-cols-2 max-md:flex max-md:flex-col-reverse'>
                     <div className='about-content max-md:pt-10'>
-                        <span className={subTitle}>About</span>
+                        <span className={subTitle}>Acerca de</span>
                         <h2 className={title}>
-                            Over 12 years leading and deeps in interiors
-                            industrial
+                            LocateU
+
                         </h2>
                         <h3 className='text-secondary text-2xl mb-12'>
-                            We know that good design means <br /> good business
+                            Sistema de ayuda de navegación <br />  peatonal dentro de instalaciones<br />  universitarias.
                         </h3>
                         <p className={desc}>
-                            Founded by Robert Downey Jr in 2004, we’re an
-                            employee-owned firm pursuing a democratic design
-                            process that values everyone’s input. Today we have
-                            more than 150 people in London, Hong Kong and Sydney
-                            providing architecture, interior & urban design
-                            services from concept to completion.
+                            Este sistema ayuda al estudiante para su fácil navegación
+                            dentro de las instalaciones universitarias. La idea principal
+                            es mostrar por medio de una aplicación web, con acceso desde
+                            cualquier dispositivo con conexión a internet;
+                            la geolocalización del estudiante e indicar la ruta
+                            hacía el edificio donde se encuentra el salón u oficina
+                            que fueron identificados por medio de una serie de preguntas
+                            realizadas en la aplicación.
                         </p>
-                        <Link href='/about'>
-                            <a className='boxed-btn text-[18px] leading-[30px]'>
-                                More About Us
-                            </a>
-                        </Link>
                     </div>
                     <div className={aboutImage}>
                         <Image
-                            src='/images/about/1.jpg'
-                            alt='Service Image'
-                            width={390}
-                            height={760}
-                            quality={70}
-                            layout='fixed'
+                            src='/images/about/1.gif'
+                            layout='fill'
                             objectFit='cover'
                             priority
                         />

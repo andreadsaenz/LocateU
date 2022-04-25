@@ -55,40 +55,14 @@ function HeaderOne() {
                                         </li>
                                         <li
                                             className={
-                                                router.pathname == '/about'
+                                                router.pathname == '/login'
                                                     ? 'active'
                                                     : ''
                                             }
                                         >
-                                            <Link href='/about'>
+                                            <Link href='/login'>
                                                 <a>
-                                                    <span>About</span>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li
-                                            className={
-                                                router.pathname == '/projects'
-                                                    ? 'active'
-                                                    : ''
-                                            }
-                                        >
-                                            <Link href='/projects'>
-                                                <a>
-                                                    <span>Projects</span>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li
-                                            className={
-                                                router.pathname == '/posts'
-                                                    ? 'active'
-                                                    : ''
-                                            }
-                                        >
-                                            <Link href='/posts'>
-                                                <a>
-                                                    <span>Posts</span>
+                                                    <span>Login</span>
                                                 </a>
                                             </Link>
                                         </li>
@@ -111,12 +85,7 @@ function HeaderOne() {
                             <div className='lg:col-span-3 col-span-6'>
                                 <div className={`outer-box ${headerCss}`}>
                                     <ul className='language-list text-white'>
-                                        <li>
-                                            <Link href='/'>END</Link>
-                                        </li>
-                                        <li>
-                                            <Link href='/'>FRA</Link>
-                                        </li>
+
                                     </ul>
                                     <div className='offcanvas-area'>
                                         <div className='offcanvas'>
